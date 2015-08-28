@@ -1,0 +1,30 @@
+#!/bin/bash
+
+if [ $# -le 0 ]
+then
+    exit
+fi
+CASENO=$1
+CASENO_URL=`echo ${CASENO} | sed 's/\//%2F/g'`
+CASENO_FN=`echo ${CASENO} | sed 's/\//_/g'`
+
+UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.68 Safari/537.36"
+SESSION_ID="bvillz3n51jb03bxhodzhzbg"
+TOKEN="VtiaBbo5f%2BAyaS1in%2BOO3PFmb89cKEluAFE6%2FVaQtMUVpQn71hkzishbAApwIKzku%2BDnmDO1z4fbJ6Xw8lUo0zvWMKwlXwa0RAkLVzNPJfqw6zlZVcMcxFjOVLp1VNNK1VnntZXaUtHquyX6tSUntIqdBzu5bIhEyofe96eJs0gJnMBKEhlWw60U4fw6yHqiIxjbEDMvt37Mja9A2Useuuc3%2F8%2BfaNIhQiKQllUD%2FbkjFH%2FpE5NTInQrD4Y5rIAFwac04qNA8xsgZLWI807uv%2FcI8AKjyIjzPN6i0PDoTko6%2FvEf8uno%2Fu3al17PMJ2JTD9NljN11S9AlSoHUPA5LL24KisN4kJ9i5dxrD6v10I5Q1Sk0up%2Fr6p153jekp7%2F3usm2NgAkjO49jEA5PEtrgiPH47rZYvg0Y3YHO%2B9ASj8jJMb2shRh2XP52Baqvl1cNAipOSpdyFphQpRY%2Fb3Je0rK6YTGLlePDbMZG63R9rhpHEuRRjyJsRyreEdAkfuPdxloSAawQiofgT8BSilqoXz2Bcf6%2BXjU62ZFFjaZyTSvVvm1WeSdBpoIFOXZfTv0fsGqMLzMAmVCoR%2BOc9t0MTLZwj4yuxT73YR6ngWuOr7pkDIev7N1fEBuMOMLvsHcpY5mOA0KWJncr1G3wuX3Ldg3g2T7u0sp%2FtEtBNhu17GDJbmU57%2FUz%2F8zL35mEAmu%2Fd3ZRxQYOmdgyouXOGyPczoGY6zOi5G1uK0AuI%2FJwEwkT2JNHcoLNLO6ob9kb0Es9uhdBaei6Qvapai293YXXT417dM9y5G9xafJryWNRNlikeE%2Bn8Za3dKbnxUWyre4Z7g%2F3f379gPyrDRbbJTApsO4WYQk4PUZDjW2LoeX7KMkVWUhh6%2Ber4D%2FWus6O4QfQy%2BOHd0a5PFLs4Wv%2B8JmU3kSa4axcku62ONq8bSXnIguA9b5ei3yRrMhqbYg8t%2FOiELva4iuBj5PFThHXaD%2FIvPjdB0BMej6EIxQEhuS10RRvIychJY0GLdXk2OUO1xx9iIxQAwOgRFOjvzY73y96bKiIOjH8ZvQn%2FLWAnsJG4FkEQXZ1AMySkT4iMCWiTWjfq%2B0OUXlylvry5%2F3lJtgnOw616z9AabWJ9SBp928dTtDYbnh0diMpaR6an1G10Jiwrftqqy6WKMXty45QwvMbBzGthVlKUWKU9Qw4QzDnm0QWkUZzmxM9Uw2VxIjJKaEom1XiVXHxugi62wlf8AbyLrlJEGub1I61ROQGBqbHjne14vTzFPwD1qc5OFSK6Gjo1P%2BV9EzNscXnIi7SQLGuXiWHz2skBt%2FGR%2FqRikgOnv%2BTEQtJ1TMuvAz1d60r%2BHvQ2fFzvLbtRVSk8rJP7OcekxquXB9Fxe5qppd70oAt%2BXD3b8thKGAavW51nkN6CSDeazhQ%2BiH0kofbo8zb1efWj4cDaD0FvwtQp6iE6Awu%2B400BNvUAPwnXHBEvqTPeO8cUDNozYnUR4BsdC30c4SM8JxeuAR5qNBIcC%2B9tPvVUD9l29bIkC%2FksLdDtk1bQ2VyyOEYwaKaZNQoFrAFPexdMGZYGkvhp8bUlcUVHSkBZlqLyj0YhT3n%2FcdVb70D6n8UX2w3idmsi4EdNnDaIRYg5beeiE%2FzrFUOiG82vV7RPj3KuRChBEcHm%2By4jaGla31dS4cgYUQ%2F%2B%2FrMnQjmffMQ%3D%3D"
+POSTDATA="lang=0&token=${TOKEN}&caseNo=${CASENO_URL}"
+
+FO="${CASENO_FN}.json"
+
+if [ -s ${FO} ]
+then
+    exit
+fi
+
+echo $CASENO
+
+curl -s 'http://www.ozp.tpb.gov.hk/PlanDAPI/Detail/Application' -b "ASP.NET_SessionId=${SESSION_ID}" -A "${UA}" -d "${POSTDATA}" -o "${FO}"
+
+if [ -s ${FO} ] && [ `cat ${FO} | wc -c` -le 0 ]
+then
+    rm ${FO}
+fi
