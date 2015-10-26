@@ -1,0 +1,181 @@
+id,description,easting,northing
+H106F,Connaught Road Central near Exchange Square,834060,816365
+H107F,Pedder Street,834251,815825
+H108F,Queen's Road Central near Ice House Street,834307,815670
+H109F,Queen's Road Central near Garden Road,834701,815639
+H110F,Connaught Road Central near Shun Tak Centre,833974,816414
+H130F,Pok Fu Lam Road near Pokfield Road,831648,815857
+H132F2,Pok Fu Lam Road near Smithfield Road,831530,815440
+H138F,Cotton Tree Drive near Murray Building,834462,815412
+H201F,Hennessy Road near Arsenal Street,835400,815422
+H203F,Yee Wo Street near Hennessy Road,837091,815679
+H204F,Fleming Road near Harbour Road,836013,815756
+H207F,Cross Harbour Tunnel Hong Kong Side,836809,815849
+H209F,Queen's Road East near Stubbs Road,836391,815128
+H210F,Aberdeen Tunnel - Wan Chai Side,836502,815130
+H214F,Harcourt Road near Red Cross Headquarter,835893,815674
+H215F,Gloucester Road near Wan Chai Interchange,836636,815850
+H216F,Canal Road Flyover near Times Square,836711,815628
+H222F,Gloucester Road near Sun Hung Kai Center,836118,815632
+H305F,Causeway Road near Hing Fat Street,837753,815881
+H307F,King's Road near Tin Chong Street,838176,816841
+H401F,Wong Chuk Hang Road near Aberdeen Tunnel,835637,812448
+H422F1,Wong Chuk Hang Road near Aberdeen Technical School,834650,812183
+H422F2,Ap Lei Chau Bridge Road near Aberdeen Police Station,834633,812095
+H429F,Aberdeen Praya Road near Fish Market,833545,812189
+H801F,Island Eastern Corridor near Ka Wah Centre,839132,817250
+H802F,Island Eastern Corridor near Hoi Yu Street,839855,816912
+H803F,Island Eastern Corridor near Quarry Bay Park,840787,816596
+H903F,Morrison Hill Road near Sports Road,836673,815230
+H904F,Canal Road Flyover near Gloucester Road,836679,815711
+TC551F,Kap Shui Mun Bridge,823592,822667
+TC573F,Lantau Link near Toll Plaza,822215,822108
+SM933F,Shing Mun Tunnel Road,837023,826509
+SM934F,Shing Mun Tunnel Shatin Side,835189,826867
+ST106F,Sha Tin Wai Road/Sha Lek Highway Slip Road,838649,826523
+ST109F,Tai Chung Kiu Road near Ravana Garden,839016,827761
+ST112F,Mei Tin Rd nr Che Kung Miu Rd Rbt,836584,825780
+ST114F,Tai Po Road - Shatin Section,837674,827277
+ST115F,Fo Tan Road,838338,827859
+ST117F,Sai Sha Road near Ma On Shan Sports Ground,841439,831310
+ST119F,Sai Sha Road/Kam Ying Road,842843,831980
+TH101F,Tolo Highway near Ma Liu Shui Interchange,839951,830304
+TH110F,Tolo Highway near HK Science Park,838284,833227
+TH114F,Tolo Highway near Island House Interchange,836304,833974
+RT115F,Lung Mun Road near Wu Chui Road,813942,826353
+RT116F,Wong Chu Road near Lung Mun Road,814689,827701
+TC604F,Ting Kau Bridge,826493,824541
+TC612F,Tuen Mun Road to Ting Kau Bridge,825761,825704
+TR101F,Tuen Mun Road - Chai Wan Kok,828593,826093
+TR105F,Tuen Mun Road - Ting Kau Section,826026,825793
+TR108F,Tuen Mun Road - Sham Tseng Interchange,824330,825576
+TR114F,Tuen Mun Road - Tai Lam Kok Section,820053,824313
+TR119F,Tuen Mun Road - Sam Shing Hui,816113,827041
+TC104F,Tsing Kwai Highway Near Container Port 4,831612,822223
+BC101F,San Tin Highway near Fairview Park,823794,837083
+BC102F,San Tin Highway near Mai Po,824754,839245
+BC103F,San Sham Road Roundabout,826465,840287
+FH104F,Fanling Highway near Kwu Tung,827827,840497
+FH106F,Fanling Highway near Sheung Shui Roundabout,830869,840072
+FH107F,Fanling Highway near Pak Wo Road,831274,839862
+NH101F,Jockey Club Road near Fanling Highway,833149,838713
+NH109F,Jockey Club Road near Ma Sik Road,831857,840099
+NH113F,San Wan Road near Lung Sum Avenue,831083,840385
+NH115F,Sha Tau Kok Road near Ma Sik Road,833194,840146
+TP102F,Yuen Shin Road near Ting Kok Road,836303,835283
+TP105F,Tai Po Tai Wo Road near Nam Wan Road,835765,834669
+TP112F,Tai Po Tai Wo Road near Tai Po Road- Tai Wo,834416,834785
+TP114F,Nam Wan Road near Kwong Fuk Road,835744,834126
+K101F,Salisbury Road near Nathan Road,835792,817332
+K102F,Salisbury Road near Chatham Road,836094,817392
+K104F,Canton Road near China HK City,835403,817905
+K106F,Chatham Road near Austin Road,836292,818257
+K107F,Cross Harbour Tunnel Kowloon Side,836663,818254
+K108F,Jordan Road near Ferry Street,835241,818565
+K109F,Chatham Road near Princess Margaret Road,836431,818558
+K111F,Waterloo Road / Ferry Street,835268,819288
+K112F,Waterloo Road near Tung Fong Street,835746,819346
+K123F,Princess Margaret Road near King's Park,836386,819050
+K209F,Boundary Street near Tai Hang Tung Road,835803,820822
+K221F,Cherry Street near Hoi Wang Road,834872,819932
+K305F,Cheung Sha Wan Road near Kwong Cheung Street,833671,822192
+K325F,Kwai Chung Road near Mei Fo Sun Chuen,832615,821975
+K404F,Kai Tak Tunnel Kowloon City Side,837362,819479
+K405F,Ma Tau Wai Road near Farm Road,837368,820335
+K408F,Princess Margaret Road/Pui Ching Road,836431,819862
+K409F,Princess Margaret Road/Argyle Street,836338,820335
+K502F,Waterloo Road/Cornwall Street,836493,822345
+K505F,Lung Cheung Road/Chuk Yuen Road,837065,822685
+K506F,Prince Edward Rd W Flyover nr Olympic Garden,837767,821018
+K508F,Lung Cheung Road/Po Kong Village Road,838507,822544
+K521F,Prince Edward Road East near San Po Kong,838268,821504
+K602F,Lei Yue Mun Road near Cha Kwo Ling Road,841675,818988
+K607F,Sau Mau Ping Road near Hip Wo Street,841327,820562
+K613F,Kai Cheung Road near Wang Chiu Road,839535,820747
+K614F,Lung Cheung Road/Clear Water Bay Road,839495,821701
+K621F,Kwun Tong Road near Kai Yip Estate,839923,821103
+K627F,Clear Water Bay Road near Fei Ngo Shan Road,840990,821665
+K802F,Ching Cheung Road near Caritas Medical Center,833946,822627
+K804F,Lung Cheung Road near Chak On Estate,834977,822541
+K809F2,Kwun Tong Road near Kowloon Bay MTR Station,840175,820079
+K810F,Kwun Tong Road near Ngau Tau Kok MTR Station,840743,819523
+K811F,Tseung Kwan O Road near Tsui Ping South Estate,842195,819230
+K812F,Kwun Tong Bypass near Laguna City,841658,818874
+K813F,Kwun Tong Bypass near Lai Yip Street,840416,819283
+K814F,Kwun Tong Bypass near Kai Cheung Road,839093,820705
+K816F,West Kowloon Corridor near Nam Cheong Estate,834690,820692
+K911F,West Kowloon Hwy - Yau Ma Tei Interchange N,834613,819573
+K914F,West Kowloon Highway near Lai Wan Interchange,832783,821350
+TK101F,Po Lam Road North near Po Hong Road,843959,820807
+TK105F,Po Shun Road near Tseung Kwan O Swimming Pool,844972,819827
+TK110F,Chui Ling Road near Po Shun Road,844372,818516
+TK904F,Tseung Kwan O Tunnel - Tseung Kwan O Side,844296,820178
+NL121F,North Lantau Highway near Sunny Bay,820149,820655
+NL124F,North Lantau Highway near Siu Ho Wan,817086,819027
+NL126F,North Lantau Highway near Pak Mong,814546,817693
+NL128F,North Lantau Highway near Tung Chung,812639,816709
+PB106F,Penny's Bay Highway,821740,820686
+TC560F,Tsing Ma Bridge,825674,823558
+TR103F,Tuen Mun Road - Yau Kom Tau Section,827366,825737
+TR107F,Tuen Mun Road - Sham Tseng Section,825046,825201
+TR111F,Tuen Mun Road - near Tsing Lung Tau,822317,825036
+TR116F,Tuen Mun Road - Siu Lam Section,818125,825508
+SM936F,Cheung Pei Shan Road,831216,826537
+TC101F,Cheung Tsing Bridge,829564,823296
+TC302F,Cheung Tsing Highway near Kam Chuk Kok,827593,822839
+TW102F,Kwai Chung Road near Container Terminal,831675,822441
+TW103F,Tsuen Wan Road near Tsuen Tsing Interchange,830393,824630
+TW105F,Kwai Tsing Road near Tsing Yi Bridge,830749,824045
+TW108F,Kwai Chung Road near Kwai Hing MTR Station,831610,824699
+TW109F,Castle Peak Road near Wo Yi Hop Road,831993,825116
+TW112F,Wo Yi Hop Road near Lei Shu Road,832091,825877
+TW116F,Texaco Road Flyover near Sha Tsui Road,830553,825335
+TW117F,Castle Peak Road near Texaco Road North,830770,825684
+TW120F,Tsuen Wan Road near Tai Chung Road,829235,825713
+TW121F,Tsing Kwai Highway/Cheung Tsing Tunnel,829296,823288
+H421F,Aberdeen Tunnel - Aberdeen Side,836325,812440
+K202F,Argyle Street near Yim Po Fong Street,835820,820088
+K205F,Nathan Road near Lai Chi Kok Road,835420,820347
+ST701F,Tolo Highway near Sha Tin Sewage Treatment Works,839872,830033
+ST703F,Tai Po Road near MTR Racecourse Station,838936,828954
+ST712F1,Tate's Cairn Highway near Shatin Hospital,839906,828893
+ST714F,Tate's Cairn Highway near Tai Shek Kwu,839712,827856
+ST715F,Sha Lek Highway near Prince Wales Hospital,838818,826517
+ST721F,Shatin Road near Yuen Chau Kok Park,838811,827270
+ST725F,Lion Rock Tunnel Road near Sun Tin Wai Estate,837361,825546
+ST731F,Ma On Shan Bypass near Heng On Estate,841532,830528
+ST732F,Ma On Shan Bypass near Yiu On Estate,842035,830893
+SW109F,Yuen Long Highway near Hung Tin Road,818100,832003
+SW111F,Yuen Long Highway near Tong Yan San Tsuen Interchange,819442,833173
+SW112F,Yuen Long Highway near Shap Pat Heung,821421,832797
+SW113F,Yuen Long Highway near Pok Oi Interchange,822114,833747
+TI101F,Castle Peak Road near Hung Shui Kiu,818090,832902
+TM101F,Wu Chui Road near Wu King Road,814526,826116
+TM103F,Lung Mun Road near Tuen Mun Recreation and Sports Centre,814447,827250
+TM118F,Pui To Road near Tuen Mun Park,815352,828319
+TR704F,Tuen Mun Road near Tsing Yin Street,815621,828752
+YL101F,Long Tin Road near Long Ping Road,819746,834085
+YL106F,Castle Peak Road nearYuen Long,821368,833929
+YL111F,Castle Peak Road near Pok Oi Interchange,821917,833889
+BC702F,Castle Peak Road near Mai Po,824086,838533
+TP113F,Fanling Highway near Hong Lok Yuen Road,833366,835885
+FH706F,Fanling Highway near MTR Fanling Station,832352,839113
+ST922F,Lion Rock Tunnel Road near Hung Mui Kuk Road,836845,825101
+SW103F,Kong Sham Western Highway near Ha Tsuen,815876,834298
+SW108F,Yuen Long Highway near Tan Kwai Tsuen,817746,831659
+TL102F,Tai Lam Tunnel - Yuen Long Side,824319,830139
+TL103F,Tai Lam Tunnel - Ting Kau Side,824981,826211
+TS102F,Nam Wan Tunnel- Stonecutters Bridge side,829111,821664
+TS104F,Tsing Sha Highway near Lai Chi Kok,832851,822646
+TS105F,Sha Tin Heights Tunnel - Sha Tin Side,835713,825356
+TW701F,Cheung Pei Shan Road near Mei Wan Street,829717,826375
+H702F,Western Harbour Crossing Hong Kong Side,832629,816766
+H703F,Connaught Road West,832480,816741
+K901F,Western Harbour Crossing Kowloon Side,834394,818348
+K931F,Tate's Cairn Tunnel Kowloon Side,839086,822485
+K952F,Eastern Harbour Crossing Kowloon Side,842183,818178
+ST942F,Tate's Cairn Tunnel Shatin Side,839632,826938
+K121F,Canton Road near Salisbury Road,835512,817290
+TL101F,Tsing Long Highway near Ko Po San Tsuen,823996,833151
+TR706F,Tuen Mun Road near MTR Siu Hong Station,815928,830243
+TS101F,Nam Wan Tunnel - Sai Tso Wan Side,827720,822707
